@@ -220,6 +220,7 @@ section{
 .blog-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .blog-content{
@@ -227,9 +228,10 @@ section{
 }
 
 .blog-img{
-    width: 48%;
+    width: 45%;
     display: block;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .blog-img:hover .donation-img{
