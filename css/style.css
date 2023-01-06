@@ -233,3 +233,30 @@ section{
     flex-direction: row-reverse;
     margin-top: 100px;
 }
+
+/* Update section styles */
+#update{
+    text-align: center;
+}
+
+.contact-us{
+    padding: 100px 200px;
+    background-color: #FFF4D6;
+}
+
+.email{
+    border: none;
+    background-color: #D9D9D9;
+    padding:12px 10px;
+    outline: none;
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 17px;
+}
+
+.subscribe{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+}
