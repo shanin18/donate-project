@@ -196,3 +196,40 @@ section{
 .card3{
     background-color: #FFF4D6;
 }
+
+/* blog section styles */
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-content{
+    width: 48%;
+}
+
+.blog-img{
+    width: 48%;
+}
+
+.blog-title{
+    font-size: 36px;
+    color: #121212;
+    line-height: 46px;
+}
+
+.blog-desc{
+    font-size: 18px;
+    font-weight: 500;
+    color: #707070;
+    margin: 30px 0;
+}
+
+.donation-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
