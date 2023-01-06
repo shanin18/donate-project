@@ -29,6 +29,8 @@
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
 }
 
 .nav{
@@ -61,7 +63,7 @@
 
 /* banner styles */
 #banner{
-    width: 60%;
+    width: 40%;
     text-align: center;
     margin: 0px auto;
     padding: 150px 0;
@@ -75,7 +77,76 @@
 }
 
 .banner-desc{
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
-    margin: 30px 0;
+    margin: 30px;
 }
+
+/* Main styles */
+
+#main{
+    width: 70%;
+    margin: 0 auto 100px;
+}
+
+section{
+    margin-top: 100px;
+}
+
+/* Donate section styles */
+#donate{
+    text-align: center;
+}
+
+.section-title{
+    font-size: 36px;
+    color:rgb(12, 12, 12);
+}
+
+.section-desc{
+    font-size: 18px;
+    font-weight: 500;
+    color: #707070;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.amount-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount{
+    width: 15%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    background-color: #FAFAFA;
+    padding: 45px 0;
+    margin: 50px 20px;
+    border-radius: 5px;
+}
+
+.amount-red{
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+
+.send-amount{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(216, 213, 213);
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0 30px;
+    padding: 10px;
+}
+
+.send-amount::placeholder{
+    color: rgb(177, 177, 177);
+}
+
