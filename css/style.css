@@ -44,7 +44,7 @@
 
 .logo{
     font-size: 45px;
-    color: red;
+    color:#f03131;
 }
 
 .menu{
@@ -60,6 +60,11 @@
 .menu li a{
     text-decoration: none;
     color: white;
+    transition: .2s;
+}
+
+.menu li a:hover{
+    color: #FF5959;
 }
 
 /* banner styles */
@@ -127,12 +132,17 @@ section{
     padding: 45px 0;
     margin: 50px 20px;
     border-radius: 5px;
+    transition: .3s;
 }
 
 .amount-red{
     color: #FF5959;
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
+}
+
+.amount:hover{
+    color: #FF5959;
 }
 
 .send-amount{
@@ -167,8 +177,12 @@ section{
     width: 30%;
     text-align: left;
     padding: 20px;
-    box-shadow: 2px 2px 5px rgb(245, 242, 242);
+    transition: .4s;
     border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 5px 8px 8px rgb(245, 242, 242);
 }
 
 .card-img{
@@ -243,6 +257,7 @@ section{
 .contact-us{
     padding: 100px 200px;
     background-color: #FFF4D6;
+    margin-top: 50px;
 }
 
 .email{
@@ -271,5 +286,10 @@ section{
 
 .footer-title{
     font-family: 'Lobster', cursive;
-    color:#FF5959
+    color:#FF5959;
+    transition: .4s;
+}
+
+.footer-title:hover{
+    color: white;
 }
