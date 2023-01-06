@@ -108,6 +108,7 @@ section{
     font-weight: 500;
     color: #707070;
     width: 50%;
+    text-align: center;
     margin: 20px auto;
 }
 
@@ -150,3 +151,48 @@ section{
     color: rgb(177, 177, 177);
 }
 
+/* Plan section styles */
+#plan{
+    text-align: center;
+}
+
+.cards-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(245, 242, 242);
+    border-radius: 5px;
+}
+
+.card-img{
+    margin: 20px 0;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.card-desc{
+    color: #707070;
+    line-height: 24px;
+    margin: 10px 0 20px;
+    font-weight: 500;
+}
+
+.card1{
+    background-color: #EDF5F6;
+}
+
+.card2{
+    background-color: #FFEEEE;
+}
+
+.card3{
+    background-color: #FFF4D6;
+}
