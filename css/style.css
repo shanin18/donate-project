@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -288,6 +289,7 @@ section{
 
 /* footer styles */
 #footer{
+    position: relative;
     text-align: center;
     background-color: #0B0D17;
     padding: 40px 0 20px;
@@ -301,4 +303,31 @@ section{
 
 .footer-title:hover{
     color: white;
+}
+
+.top-icon{
+    position: absolute;
+    right: 150px;
+    top: 70px;
+}
+
+.arrow-top{
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: #FF5959;
+    border: none;
+}
+
+.arrow-top i{
+    color: white;
+    font-size: 18px;
+}
+
+.icon-text{
+    color: white;
+    text-transform: capitalize;
+    transition: .3s;
+    position: absolute;
+    top: 120px;
+    right: 142px;
 }
