@@ -26,12 +26,13 @@
 /* header styles */
 
 #header{
-    background: url("../asset/images/donation9.jpg"), linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, 1));
+    height: 100vh;
+    background: url("../asset/images/banner1.png"), linear-gradient( rgba(0, 0, 0, .4), rgba(0, 0, 0, 1));
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
 }
 
 .nav{
@@ -132,7 +133,6 @@ section{
     padding: 45px 0;
     margin: 50px 20px;
     border-radius: 5px;
-    transition: .3s;
 }
 
 .amount-red{
@@ -143,6 +143,8 @@ section{
 
 .amount:hover{
     color: #FF5959;
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
 }
 
 .send-amount{
@@ -224,6 +226,12 @@ section{
 
 .blog-img{
     width: 48%;
+    display: block;
+    overflow: hidden;
+}
+
+.blog-img:hover .donation-img{
+    transform: scale(1.1);
 }
 
 .blog-title{
@@ -242,6 +250,7 @@ section{
 .donation-img{
     width: 100%;
     border-radius: 5px;
+    transition: .3s;
 }
 
 .row-reverse{
@@ -255,7 +264,7 @@ section{
 }
 
 .contact-us{
-    padding: 100px 120px 100px 0;
+    padding: 100px 120px 100px 0px;
     background-color: #FFF4D6;
     margin-top: 50px;
 }
