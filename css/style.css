@@ -134,6 +134,7 @@ section{
     padding: 45px 0;
     margin: 50px 20px;
     border-radius: 5px;
+    border: 2px solid #FAFAFA;
 }
 
 .amount-red{
